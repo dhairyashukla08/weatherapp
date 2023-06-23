@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #555;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Lexend Zetta', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Secular One', sans-serif;
+font-family: 'Source Code Pro', monospace;
+background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+font-size: 120%;
+}
+.card{
+    background: #000000d0;
+    color: whitesmoke;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin: 2em;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 2em;
+    border: none;
+    border-radius: 50%;
+    height: 2.5em;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background: #7c7c7c7b;
+}
+input.searchbar{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5em 1em ;
+    background: #7c7c7c2b;
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: 120%;
+    width: 70%;
+
+}
+h1.temp{
+    margin: 0;
+}
+.weather.icon{
+    width: 150px;
+    margin-top: 30px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: -6px;
+}
+.humidity,.wind{
+    margin-top: -6px;
+    font-size: 20px;
+
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    
+}
